@@ -15,8 +15,6 @@ def get_gemini_response(input_prompt, image_data):
     
 st.set_page_config(page_title="Food Calorie Counter")
 
-st.set_page_config(page_title="Food Calorie Counter")
-
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""
 if uploaded_file is not None:
